@@ -37,6 +37,14 @@ a == b
 print('nama' + 'saya')
 print('*' * 3)
 
+# special case operation
+print(1+True)
+# int(True) = 1
+# int(False) = 0
+
+# penjumlahan string + number (stringnya harus dicasting ke number)
+print(1 + int('1'))
+
 # Comparison
 
 print("pacil">"paCil")
