@@ -29,7 +29,7 @@ print("kalimat_sakti"[-1:-6:-1])
 # A variable name cannot start with a number
 # A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
 # Variable names are case-sensitive (age, Age and AGE are three different variables)
-# Gabisa pake keyword yang udah dipake python 
+# Gabisa pake keyword yang udah dipake python
 
 # $dollar = "uang"
 _ = "underscore nih"
@@ -45,3 +45,21 @@ if maung + 1 == "2020":
     print("Selamat datang CSUI 2020")
 if maung % 10 == 9:
     print("Selamat datang di Fasilkom, CSUI 2020")
+
+# No 7
+true = False
+false = True
+if false:
+    print("Goo Lagoon")
+else:
+    print("Rock Bottom")
+if false and True:
+    print("Krusty Krab")
+else:
+    print("Chum Bucket")
+false = (False and not False) or not not True
+false = not false
+if false:
+    print("Squilliam Fancyson")
+else:
+    print("Squidward Tenpoles")
