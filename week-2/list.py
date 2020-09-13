@@ -43,3 +43,9 @@ lst3 = lst1[21:]    # ['V', 'W', 'X', 'Y', 'Z']
 
 lst3 = lst1[-5:]    # ['V', 'W', 'X', 'Y', 'Z']
 print(lst3)
+
+# deklarasi
+list_a = []
+list_a = list()
+# tuple_a = ()
+# tuple_a = tuple()

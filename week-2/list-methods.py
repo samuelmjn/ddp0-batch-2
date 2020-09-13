@@ -99,5 +99,9 @@ ab[0] = 4
 print(ab)
 
 # tuple : list tapi tidak mutable
-tup = (1, 2, 3)
+tup = (4, 1, 2, 3)
+
+# ngurutin tipe data iterable dan menghasilkan list itu
+sorted_tuple = sorted({1,2,4,0})  # return list
 print(tup[1])
+print(sorted_tuple)
